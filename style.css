@@ -78,7 +78,7 @@ body {
     background-size: cover;
     min-height: 100vh;
     margin-top: -5rem;
-    padding-top: 15rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
 }
 
@@ -174,7 +174,12 @@ body {
     font-weight: 300;
 }
 
-.story,
+.story {
+padding-top: 10rem;
+padding-bottom: 8rem;
+background-color: #dddddd;
+}
+
 .gallery,
 .rsvp,
 .gifts {
