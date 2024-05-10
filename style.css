@@ -205,7 +205,21 @@ padding-bottom: 8rem;
     margin-bottom: 1rem;
 }
 
-.story p,
+.story p {
+    color: #010101;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Snippet', sans-serif;
+}
+
+.story b {
+    color: #010101;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Snippet', sans-serif;
+}
+
 .gallery p,
 .rsvp p,
 .gifts p {
