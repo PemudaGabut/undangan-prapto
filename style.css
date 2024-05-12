@@ -70,6 +70,29 @@ body {
     font-weight: bold;
 }
 
+.mynavbar .navbar-nav a {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0.1rem;
+}
+
+.mynavbar .navbar-nav a:hover {
+    color: var(--blue);
+}
+
+.mynavbar .navbar-nav a::after {
+    content: '';
+    display:block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--blue);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.mynavbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+}
+
 .mynavbar .nav-link {
     text-transform: uppercase;
 }
